@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35017.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinKeeper.Core", "src\KinKeeper.Core\KinKeeper.Core.csproj", "{8B08115F-A876-4044-8353-595D1BD6E3BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{840BC319-8050-41D7-896E-843CE307293C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9B1973B8-F8D2-4274-A65D-E6792AE74FFB}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CHANGELOG.md = docs\CHANGELOG.md
+		docs\LICENSE = docs\LICENSE
+		docs\README.md = docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{281EB659-9720-47C7-ABF9-62B1B81E2EF5}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B08115F-A876-4044-8353-595D1BD6E3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B08115F-A876-4044-8353-595D1BD6E3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B08115F-A876-4044-8353-595D1BD6E3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B08115F-A876-4044-8353-595D1BD6E3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46A1E346-6E73-4E07-AA9E-9CBCE6522674}
+	EndGlobalSection
+EndGlobal
