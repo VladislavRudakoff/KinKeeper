@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9B1973B8-F
 		docs\CHANGELOG.md = docs\CHANGELOG.md
 		docs\LICENSE = docs\LICENSE
 		docs\README.md = docs\README.md
+		docs\REQUIREMENTS.md = docs\REQUIREMENTS.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{281EB659-9720-47C7-ABF9-62B1B81E2EF5}"
